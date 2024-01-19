@@ -1,0 +1,64 @@
+.crop-img{
+  max-height:150px;
+  max-width:100%;
+  margin-bottom: 10px;
+}
+
+.large-img{
+  max-width:100%;
+  margin-top: 10px;
+}
+/*the subtitle color changes when the mouse hovers over*/
+h2:hover{
+	color: black;
+}
+
+h1{
+	font-family:"Times new roman" serif;
+	font-size: 100px;
+	text-align: center;
+}
+
+h2{
+	padding-top: 10px;
+	font-family: fantasy;
+	font-size: 30px;
+	background-color: pink;
+	color: blue;
+	text-align: center;
+}
+
+/*the country name*/
+.Countries{
+	font-size: 30px;
+	color: darkgreen;
+	font-style: bold;
+}
+
+/*the country description*/
+.Description{
+	font-size: 15px;
+	color: black;
+}
+
+
+/*the background color is responsive to the screen size*/
+@media (max-width: 700px){ 
+	body {
+		background-color: pink;
+	}
+}
+
+@media (min-width: 750px){ 
+	body {
+		background-color: white;
+	}
+}
+
+footer{
+	font-family: fantasy;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	text-align: left;
+}

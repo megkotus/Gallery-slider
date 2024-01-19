@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<title>Ajarn Anuban</title>
+
+		<!-- import bootstrap -->
+		<link rel="stylesheet" 
+		      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+		      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+		      crossorigin="anonymous"
+		      />
+
+
+		<!-- import our own stylesheet -->
+		<link rel="stylesheet"
+			  type="text/css"
+			  href="styles.css"
+		      />	
+
+		<!-- import jQuery -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="myScript.js"></script>
+	</head>
+	
+	<body>
+
+		</hr>
+	<div class="container">
+		<h1>Ajarn Anuban</h1>
+			<h2>My Tiny Travel Blog</h2>
+		<!--
+		   These are the thumbnail images.
+		-->
+		<div class="row">
+			<div class="col-md-2">
+				<img id="image1" 
+				 class="crop-img" src="img_1.jpg" alt="Thailand"/> 
+			</div>
+			<div class="col-md-2">
+				<img id="image2" class="crop-img" src="img_2.jpg" alt="Malaysia"/> 
+			</div>
+			<div class="col-md-2">
+				<img id="image3" class="crop-img" src="img_3.jpg" alt="Vietnam"/> 
+			</div>
+			<div class="col-md-2">
+				<img id="image4" class="crop-img" src="img_4.jpg" alt="Russia"/> 
+			</div>
+			<div class="col-md-2">
+				<img id="image5" class="crop-img" src="img_5.jpg" alt="Laos"/> 
+			</div>
+			<div class="col-md-2">
+				<img id="image6" class="crop-img" src="img_6.jpg" alt="Croatia"/> 
+			</div>
+		</div>
+		<!--
+			This is the next row with the large image, 
+			backwards and forwards buttons on each side
+			and Country name and description on the right.
+		-->
+		<div class="row">
+			<div class="col-md-1">
+				<button id="backward">&lt;</button>
+			</div>
+			<div class="col-md-8">
+				<img id="bigImage" class="large-img" src="img_1.jpg" alt="Country"/> 
+			</div>
+		<!--
+		The country name in a box right to the picture
+		only changes when the slideshow is running or on button click. 
+		Not on click of the thumbnail pictures.
+		The placeholder for the country name is Countries. 
+		-->
+			<div class="col-md-2">
+				<div class="well">
+				<p id="title" class="Countries"> Countries</p>
+				<p id="subtitle" class="Description"> Short description</p>
+				</div>
+			<div class="col-md-1">
+				<button id="forward">&gt;</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="myScript.js"></script>
+
+	</body>
+
+	<footer>
+		Hi! My name is Rita and I currently live in a small town in Thailand. <br>
+		All the Thai people I know here call me Ajarn Anuban - Kindergarden Professor - <br>
+		which is how I introduced myself first in my poor Thai. <br>
+		Feel free to call me that. <br>
+		And this is my travel blog!
+
+	</footer>
+
+
+</html>
+
+
+
+
+
+
+
